@@ -48,14 +48,10 @@ public class BasePage {
 	//Método para cerrar alertas
 	public void dismissAlert() {
 		try {
-			driver.switchTo().alert().dismiss();
-		} catch(NoAlertPresentException e) {
+			driver.switchTo().alert().dismiss();	
+		} catch (NoAlertPresentException e) {
 			e.printStackTrace();
 		}
 	}
-	
-	public WebElement find(String locator) {
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator)));
-	}
+
 }

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-05T22:17:23 CDT" name="Default suite" finished-at="2022-07-05T22:17:25 CDT" duration-ms="2601">
+  <suite started-at="2022-07-13T21:40:43 CDT" name="Suite de Pruebas" finished-at="2022-07-13T21:40:45 CDT" duration-ms="2030">
     <groups>
     </groups>
-    <test started-at="2022-07-05T22:17:23 CDT" name="Default test" finished-at="2022-07-05T22:17:25 CDT" duration-ms="2601">
+    <test started-at="2022-07-13T21:40:43 CDT" name="Pruebas Automatizadas" finished-at="2022-07-13T21:40:45 CDT" duration-ms="2030">
       <class name="tests.CrearUsuario_Steps">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CrearUsuario_Steps@c88a337]" started-at="2022-07-05T22:17:23 CDT" name="setUp" finished-at="2022-07-05T22:17:25 CDT" duration-ms="2273" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CrearUsuario_Steps@7c711375]" started-at="2022-07-13T21:40:43 CDT" name="setUp" finished-at="2022-07-13T21:40:45 CDT" duration-ms="1780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="signUpUser(java.lang.String,java.lang.String)[pri:0, instance:tests.CrearUsuario_Steps@c88a337]" started-at="2022-07-05T22:17:25 CDT" name="signUpUser" data-provider="authenticationData" finished-at="2022-07-05T22:17:25 CDT" duration-ms="109" status="PASS">
+        <test-method signature="signUpUser(java.lang.String,java.lang.String)[pri:0, instance:tests.CrearUsuario_Steps@7c711375]" started-at="2022-07-13T21:40:45 CDT" name="signUpUser" data-provider="authenticationData" finished-at="2022-07-13T21:40:45 CDT" duration-ms="88" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CrearUsuario_Steps@c88a337]" started-at="2022-07-05T22:17:25 CDT" name="tearDown" finished-at="2022-07-05T22:17:25 CDT" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CrearUsuario_Steps@7c711375]" started-at="2022-07-13T21:40:45 CDT" name="tearDown" finished-at="2022-07-13T21:40:45 CDT" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CrearUsuario_Steps -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Pruebas Automatizadas -->
+  </suite> <!-- Suite de Pruebas -->
 </testng-results>
